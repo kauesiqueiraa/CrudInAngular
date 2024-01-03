@@ -11,7 +11,7 @@
       id="thought"
       name="thought"
       placeholder="Digite sua Idéia"
-      [value]="thought.content"
+      [(ngModel)]="thought.content"
     >
 
     <label for="authorship">Autoria ou fonte</label>
@@ -21,7 +21,7 @@
       id="authorship"
       name="authorship"
       placeholder="Digite a Autoria ou Fonte"
-      [value]="thought.authorship"
+      [(ngModel)]="thought.authorship"
     >
 
     <label for="model">Selecione o modelo do card:</label>
@@ -33,6 +33,7 @@
             id="model1"
             value="model1"
             name="model-card"
+            [(ngModel)]="thought.model"
           >
           <div class="custom-radio">
             <span></span>
@@ -54,6 +55,7 @@
             id="model2"
             value="model2"
             name="model-card"
+            [(ngModel)]="thought.model"
           >
           <div class="custom-radio">
             <span></span>
@@ -76,6 +78,7 @@
             id="model3"
             value="model3"
             name="model-card"
+            [(ngModel)]="thought.model"
           >
           <div class="custom-radio">
             <span></span>
