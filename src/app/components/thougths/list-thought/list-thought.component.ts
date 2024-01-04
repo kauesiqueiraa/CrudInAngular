@@ -16,7 +16,12 @@ export class ListThoughtComponent implements OnInit {
     {
       content: 'Minha propriedade é decorada com @Input()',
       authorship: 'Componente Filho',
-      model: 'model2'
+      model: 'model1'
+    },
+    {
+      content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, quas numquam voluptatem voluptates hic aperiam nesciunt aut doloremque quisquam, laborum est delectus fuga, possimus illum tempora mollitia quo repellendus dignissimos, Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, quas numquam voluptatem voluptates hic aperiam nesciunt aut doloremque quisquam, laborum est delectus fuga, possimus illum tempora mollitia quo repellendus dignissimos!!',
+      authorship: 'Componente Filho',
+      model: 'model3'
     }
   ];
 
