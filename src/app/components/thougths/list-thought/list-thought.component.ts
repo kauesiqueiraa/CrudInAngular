@@ -7,6 +7,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ListThoughtComponent implements OnInit {
 
+  listThoughts = [
+    {
+      content: 'Father Component',
+      authorship: 'Father',
+      model: 'model2'
+    },
+    {
+      content: 'Minha propriedade é decorada com @Input()',
+      authorship: 'Componente Filho',
+      model: 'model2'
+    }
+  ];
+
   constructor() { }
 
   ngOnInit(): void {
